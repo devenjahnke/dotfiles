@@ -12,7 +12,7 @@ repo_dir="$PWD"
 backup_dir="dotfiles_old"
 
 # Dotfiles to be symlinked and backed up
-files="bashrc gitconfig vimrc"
+files="bashrc gitconfig vimrc zshrc"
 
 ##########
 
