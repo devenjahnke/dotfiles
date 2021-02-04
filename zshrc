@@ -101,3 +101,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sail='bash vendor/bin/sail'
+alias test='sail test --filter'
