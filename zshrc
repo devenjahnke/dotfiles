@@ -101,4 +101,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sail='bash vendor/bin/sail'
-alias test='sail test --filter'
+alias t='sail test --filter'
+alias gcm='git commit -m'
+alias ga='git add'
+alias gaa='git add .'
+alias gs='git status'
