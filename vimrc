@@ -36,7 +36,12 @@ if has("termguicolors")
 	set termguicolors
 endif
 set background=dark
-colorscheme solarized8_flat
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
 " Vim-Plug package manager configuration
 call plug#begin('~/.vim/plugged')
@@ -51,57 +56,5 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+colorscheme solarized8_flat
 
