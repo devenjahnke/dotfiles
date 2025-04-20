@@ -4,3 +4,6 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
+[user]
+	name = Deven Jahnke
+	email = 10586846+devenjahnke@users.noreply.github.com
